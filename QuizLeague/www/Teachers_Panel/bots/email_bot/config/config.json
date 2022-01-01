@@ -1,0 +1,10 @@
+{
+  "dbaddress":"localhost",
+  "dbusername":"mpampis",
+  "dbpassword":"abcd1234",
+  "dbname":"quiz",
+  "loop_delay":1,
+  "email":"quizleaguebeta@gmail.com",
+  "email_pass":"Akm#)1H7"
+
+}

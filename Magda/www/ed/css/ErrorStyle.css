@@ -1,0 +1,11 @@
+#ErrorMainStyle{
+	font-family:'GFS Didot',serif;
+	opacity:0.9;
+	background-color:#222930;
+	color:#ffffff;
+	margin-top: 2%;
+	padding:10% 10% 10% 10%;
+	font-size:30px;
+	text-align: center;
+	border-radius: 25px;
+}

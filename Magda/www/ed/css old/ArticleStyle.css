@@ -1,0 +1,28 @@
+#ArticleStyle{
+	font-family:'GFS Didot',serif;
+	background-color: #ae75cb;
+	margin-top:2%;
+	border-radius: 15px;
+}
+
+#ArticleTitleStyle{
+
+	font-size:35px;
+	text-align: center;
+}
+#ArticleMainImageStyle img{
+	align-content: center;
+	border-radius:15px;
+	padding:5% 5% 5% 5%;
+	margin-left: 8%;
+}
+#ArticleMainBodyStyle{
+padding:2% 6% 2% 2%;
+}
+#ArticleAuthorStyle{
+	padding-left:75%;
+	padding-bottom: 1%;
+}
+#ArticleAuthorStyle img{
+	width:30px;height:30px;border-radius:50px;
+}

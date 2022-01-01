@@ -1,0 +1,43 @@
+.Context .About{
+    background-color: white;
+    padding: 1% 1% 1% 1%;
+    opacity: 0.9;
+    margin-top: 20%;
+    float: right;
+
+}
+.Context .About_Name{
+    font-size: 30px;
+}
+
+.MainMenu .StartMessage{
+    background-color: white;
+    padding: 1% 1% 1% 1%;
+    border-radius: 5px;
+    margin-top: 30%;
+}
+.MainMenu .NextStep button{
+    margin-left:60%;
+    margin-top: 5%;
+}
+.MainMenu .NewsSection ul li {
+    list-style: none;
+    background-color: #72a190;
+    padding:1% 1% 1% 1%;
+    margin-right:30%;
+    border-radius: 5px;
+}
+.MainMenu .NewsSection {
+    overflow-y: scroll;
+    height:98%;
+    width: 100%;
+}
+.MainMenu .NewsSection ul li .QuestionID,.QuestionBody{
+    display :inline;
+    margin-left: 5%;
+    border-width: 2px;
+
+
+}
+
+

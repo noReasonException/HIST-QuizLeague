@@ -1,0 +1,68 @@
+@font-face{
+    font-family:ubuntu;
+    src:url("../fonts/Ubuntu-L.ttf");
+}
+body{
+    background-image: url("../img/bg.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    overflow: scroll;
+    font-family: ubuntu;
+
+
+}
+div{
+    border-radius: 5px;
+    opacity:0.9;
+}
+.Header img{
+    width:250px;
+    height:auto;
+    margin-left:38%;
+    margin-top:15%;
+    position:absolute;
+}
+.Form{
+    background-color:#ffffff;
+    float:left;
+    padding:3% 5% 3% 5%;
+    margin-left:35%;
+    margin-top:23%;
+}
+.Form img{
+    display:inline;
+    width:20px;
+    height:20px;
+    margin-right:10px;
+}
+
+.Form .username{
+    display: inline;
+    margin-top:3%;
+    border-style: hidden;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: #8f9a9e;
+    color:#8f9a9e;
+}
+.Form .password{
+    margin-top:13%;
+    border-style: hidden;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: #8f9a9e;
+}
+.Form button{
+    background-color: #7ca593;
+    color:#ffffff;
+    border-style: hidden;
+    padding: 2% 5% 2% 5%;
+    margin-top:15%;
+    margin-left:65%;
+}
+
+.SignInAsTeacher{
+    color:#8f9a9e;
+    margin-left:25%;
+}
+

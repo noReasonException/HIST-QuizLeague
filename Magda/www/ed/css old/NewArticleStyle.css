@@ -1,0 +1,38 @@
+#NewArticleBackgroundLayer{
+	background-color: #ae75cb;
+	border-radius: 5px;
+	font-family: 'GFS Didot',serif;
+	padding:0.5% 1% 1% 1%;
+	margin-top: 20%;
+	opacity:0.8;
+
+
+
+}
+#NewArticleLabel{
+	margin-top: 3%;
+	padding-left: 6%;
+
+}
+#NewArticleInput{
+	margin-left:15%;
+	border-radius: 15px;
+}
+#NewArticleMainBody{
+	display: inline-block;
+	border-radius: 7px;
+	font-family:'GFS Didot',serif;
+}
+#Publish{
+	font-family: 'GFS Didot',serif;
+	margin-left: 90%;
+
+
+}
+h1{
+	background-color: #ae75cb;
+	font-family: 'GFS Didot',serif;
+	padding-left:32%;
+	border-radius: 25px;
+	color:#ffffff;
+}

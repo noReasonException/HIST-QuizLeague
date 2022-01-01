@@ -1,0 +1,138 @@
+.MainMenu .Label{
+    margin-top:5%;
+    margin-left: 1%;
+    font-size: 24px;
+}
+.MainMenu .LessonName{
+    margin-top:5%;
+    margin-left: 2%;
+    font-size: 20px;
+}
+
+.MainMenu .StudentsList{
+    height: 95%;
+    overflow-y: scroll;
+}
+.MainMenu .StudentsList li{
+    margin-left:10%;
+    background-color: #7ca593;
+    list-style: none;
+    margin-right: 20%;
+    padding: 1% 1% 1% 1%;
+    margin-top: 2%;
+    border-radius: 5px;
+}
+.MainMenu .UserInfo{
+    margin-top: 5%;
+}
+.MainMenu .UserInfo img{
+    width:30%;
+    height: auto;
+    float: left;
+}
+.MainMenu .UserInfo li{
+    margin-left: 30%;
+    list-style: none;
+    background-color: #7ca593;
+    margin-top: 1%;
+    padding:1% 1% 1% 1%;
+    border-radius: 5px;
+}
+.MainMenu .UserInfo li a{
+    float: right;
+    width: 15%;
+    height:auto;
+}
+
+.MainMenu .AddStudent {
+    margin-left:60%;
+    padding: 1% 1% 2% 1%;
+    background-color:#7ca593 ;
+}
+.MainMenu .AddStudent a img{
+    width: 7%;
+    height: auto;
+    margin-right: 10%;
+}
+.MainMenu .Search{
+    margin-top: 20%;
+    margin-left: 10%;
+    margin-right: auto;
+}
+.MainMenu .Search input{
+    width:90%;
+}
+.MainMenu .Search .Searchbutton{
+    margin-left: 30%;
+    list-style: none;
+    background-color: #7ca593;
+    margin-top: 5%;
+    padding:1% 1% 1% 1%;
+    border-radius: 5px;
+    margin-left: 60%;
+    cursor: pointer;
+}
+.MainMenu .Results{
+    background-color: #7ca593;
+    list-style: none;
+    padding: 1% 1% 1% 1%;
+    margin-top: 2%;
+    border-radius: 5px;
+    width:100%;
+    text-align: center;
+}
+
+.MainMenu .Results .AddIntoStudentList{
+    margin-left: 15%;
+    display: inline-block;
+    background-image: url('../img/user.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width:50px;
+    height: 20px;
+}
+.MainMenu .Results .ViewProfile{
+    display: inline-block;
+
+    background-image: url('../img/search.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width:50px;
+    height: 20px;
+}
+
+
+@keyframes M {
+    0%{top: -10%;opacity: 0;}
+    15%{top: -7%;opacity: 0.15;}
+    25%{top: -5%;opacity: 0.25;}
+    35%{top: -3%;opacity: 0.35;}
+    45%{top: +2%;opacity: 0.45;}
+    55%{top: +4%;opacity: 0.55;}
+    65%{top: +6%;opacity: 0.65;}
+    75%{top: +8%;opacity: 0.75;}
+    85%{top: +10%;opacity: 0.85;}
+    100%{top: +12%;opacity: 1;}
+}
+#modalalertbox{
+    z-index: 10;
+    padding: 2% 2% 2% 2%;
+    background-color: #7ca593;
+    /*display: none;*/
+    text-align: center;
+    position: absolute;
+    box-shadow:7px 10px 10px black;
+    margin: 10% auto auto 10%;
+    display:none;
+    /*animation-name: M;*/
+    /*animation-duration: 0.4s;*/
+
+}
+#modalalertbox select{
+    margin-left: 10%;
+    background-color: white;
+}
+#modalalertbox button{
+    margin-top: 2%;
+    float:right;
+}

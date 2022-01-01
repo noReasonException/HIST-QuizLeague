@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+  <head>
+    <title>EncruptedChat v0.0.1</title>
+    <script src="/socket.io/socket.io.js"></script>
+	<script src="http://code.jquery.com/jquery-1.11.1.js"></script>
+	<link rel="stylesheet" type="text/css" src="/style.css">
+	<script>
+	var socket = io();
+	var id=0;
+	var name ='';
+
+	socket.emit('Status','Connected');
+	socket.emit('defineUsername','Stef');
+	name='Stef';
+	messages = ""; 
+
+	socket.on('msg',function(msg){
+  		console.log(msg);
+  		messages+=msg+'<br>';
+  		console.log('->MESSAGE LIST'+messages);
+  		showMessages();
+  	});
+	socket.on('id',function(Session_id){id=Session_id;console.log('id->',id);})
+  	</script>
+  </head>
+  <body>
+    <p id="messages"></p>
+    <form action="">
+      <input id="m" autocomplete="off"/><button type="submit">Send</button>
+    </form>
+    <script>
+	$('form').submit(function(){
+		socket.emit('chat message',name+'->'+$('#m').val());
+		$('$m').val('');
+
+		return false;
+	});
+	console.log(messages);
+	function showMessages(){document.getElementById('messages').innerHTML=messages.toString();}
+
+
+	</script>
+  </body>
+</html>

@@ -1,0 +1,53 @@
+{
+	"GET_APP_VERSION":"1.0.0",
+	"GET_MACHINE_VERSION":"2.0.0",
+	"ip_address" : "localhost",
+	"username" : "root",
+	"password" : "12312312345",
+	"dbname" : "quiz",
+	"err_ip_address" : "localhost",	
+	"err_username" : "root",
+	"err_password" : "12312312345",
+	"err_dbname" : "quiz",
+	"AllowBlockedUsers" : "true",
+	"AllowBlockedIps": "true",
+	"ReportEvents" : "true",
+	"re_ip_address" : "localhost",
+	"re_username" : "root",	
+	"re_password" : "12312312345",
+	"re_dbname" : "quiz",
+	"DebugMode" : "true",
+
+	"RecordErrorsOfType":[
+		{
+			"1":"true",
+			"2":"true",
+			"3":"true",
+			"4":"true",
+			"5":"true",
+			"6":"true",
+			"7":"true",
+			"8":"true",
+			"9":"true"
+		}
+	],
+	"RecordSpecificErrorType":[
+		{
+			"101":"True"
+		}
+	],
+
+	"ADD_POINTS_SYSTEM":[{
+		"TYPE_SOLOGAME":[{
+			"SL":"10"
+		}]
+	}], 
+
+	"PENALTY_POINTS_SYSTEM":[{
+		"TYPE_SOLOGAME":[{
+			"SL":"10"
+		}]
+	}]
+
+
+}

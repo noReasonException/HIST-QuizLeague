@@ -1,0 +1,278 @@
+# Translation of Magnus in Greek
+# This file is distributed under the same license as the Magnus package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2016-03-08 23:49:25+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/1.1.0-alpha\n"
+"Project-Id-Version: Magnus\n"
+
+#. Description of the plugin/theme
+msgid "Life is Grand, Show it! Magnus is a photoblogging WordPress theme named after the latin word for Grand. It was made to showcase photos in a big and bold way, making the featured image on each post span the full width of the browser window, paired up with beautiful typography and a carefully planned layout."
+msgstr ""
+
+#. Theme Name of the plugin/theme
+msgid "Magnus"
+msgstr ""
+
+#: sidebar.php:14
+msgid "Navigation"
+msgstr "Πλοήγηση "
+
+#: search.php:16
+msgid "Search Results for: %s"
+msgstr "Αποτέλεσμα αναζήτησης για: %s"
+
+#: inc/template-tags.php:127
+msgid "Archives"
+msgstr "Αρχεία"
+
+#. translators: 1: Taxonomy singular name, 2: Current taxonomy term
+#: inc/template-tags.php:125
+msgid "%1$s: %2$s"
+msgstr "%1$s: %2$s"
+
+#: inc/template-tags.php:121
+msgid "Archives: %s"
+msgstr "Αρχείο: %s"
+
+#: inc/template-tags.php:118
+msgctxt "post format archive title"
+msgid "Chats"
+msgstr "Συνομιλίες"
+
+#: inc/template-tags.php:116
+msgctxt "post format archive title"
+msgid "Audio"
+msgstr "Ήχος"
+
+#: inc/template-tags.php:114
+msgctxt "post format archive title"
+msgid "Statuses"
+msgstr "Στατιστικά"
+
+#: inc/template-tags.php:112
+msgctxt "post format archive title"
+msgid "Links"
+msgstr "Σύνδεσμοι"
+
+#: inc/template-tags.php:110
+msgctxt "post format archive title"
+msgid "Quotes"
+msgstr "Παραθέσεις"
+
+#: inc/template-tags.php:108
+msgctxt "post format archive title"
+msgid "Videos"
+msgstr "Βίντεο"
+
+#: inc/template-tags.php:106
+msgctxt "post format archive title"
+msgid "Images"
+msgstr "Εικόνες"
+
+#: inc/template-tags.php:104
+msgctxt "post format archive title"
+msgid "Galleries"
+msgstr "Συλλογές"
+
+#: inc/template-tags.php:102
+msgctxt "post format archive title"
+msgid "Asides"
+msgstr "Παραλειπόμενα"
+
+#: inc/template-tags.php:99
+msgctxt "daily archives date format"
+msgid "F j, Y"
+msgstr "j F Y"
+
+#: inc/template-tags.php:99
+msgid "Day: %s"
+msgstr "Μέρα: %s"
+
+#: inc/template-tags.php:97
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr "F Y"
+
+#: inc/template-tags.php:97
+msgid "Month: %s"
+msgstr "Μήνας: %s"
+
+#: inc/template-tags.php:95
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr "E"
+
+#: inc/template-tags.php:95
+msgid "Year: %s"
+msgstr "Έτος: %s"
+
+#: inc/template-tags.php:93
+msgid "Author: %s"
+msgstr "Συγγραφέας: %s"
+
+#: inc/template-tags.php:91
+msgid "Tag: %s"
+msgstr "Ετικέτα: %s"
+
+#: inc/template-tags.php:89
+msgid "Category: %s"
+msgstr "Κατηγορία: %s"
+
+#: inc/template-tags.php:68
+msgid "% Comments"
+msgstr "% Σχόλια"
+
+#: inc/template-tags.php:68
+msgid "1 Comment"
+msgstr "1 Comment"
+
+#: inc/template-tags.php:68
+msgid "Leave a comment"
+msgstr "Κάντε ένα σχόλιο"
+
+#: inc/template-tags.php:62
+msgid "Tagged %1$s"
+msgstr ""
+
+#: inc/template-tags.php:56
+msgid "Posted in %1$s"
+msgstr ""
+
+#. translators: used between list items, there is a space after the comma
+#: inc/template-tags.php:54 inc/template-tags.php:60
+msgid ", "
+msgstr ","
+
+#: inc/template-tags.php:29
+msgctxt "post date"
+msgid "Posted on %s"
+msgstr "Αναρτήθηκε στις %s"
+
+#: inc/extras.php:74
+msgid "Page %s"
+msgstr "Σελίδα %s"
+
+#: header.php:22
+msgid "Skip to content"
+msgstr "Προχωρήστε στο περιεχόμενο"
+
+#. Translators: If there are characters in your language that are not supported
+#. by Roboto Slab, translate this to 'off'. Do not translate into your own
+#. language.
+#: functions.php:121
+msgctxt "Karla font: on or off"
+msgid "on"
+msgstr ""
+
+#. Translators: If there are characters in your language that are not supported
+#. by Montserrat, translate this to 'off'. Do not translate into your own
+#. language.
+#: functions.php:115
+msgctxt "Montserrat font: on or off"
+msgid "on"
+msgstr "off"
+
+#: functions.php:82
+msgid "Add widgets here to appear in your sidebar."
+msgstr "Προσθέστε μικροεφαρμογές εδώ ώστε να εμφανιστούν στην πλευρική στήλη."
+
+#: functions.php:80 header.php:45
+msgid "Sidebar"
+msgstr "Πλευρική στήλη"
+
+#: functions.php:50
+msgid "Header Quick Navigation"
+msgstr ""
+
+#: functions.php:48
+msgid "Primary Sidebar Navigation"
+msgstr ""
+
+#: footer.php:16
+msgid "Theme: %1$s by %2$s for %3$s"
+msgstr ""
+
+#: footer.php:15
+msgid "Proudly powered by %s"
+msgstr "Βασισμένο στο %s"
+
+#: footer.php:15
+msgid "http://wordpress.org/"
+msgstr "http://wordpress.org/"
+
+#: content-page.php:25 inc/template-tags.php:72
+msgid "Edit"
+msgstr "Επεξεργασία"
+
+#: content-page.php:18 content-single.php:20 content.php:29
+msgid "Pages:"
+msgstr "Σελίδες"
+
+#: content-none.php:28
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "Δεν βρέθηκε αυτό που αναζητήσατε. Ίσως η αναζήτηση μπορεί να σας βοηθήσει."
+
+#: content-none.php:23
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "Λυπούμαστε, δεν βρέθηκε κάτι που να ταιριάζει στα κριτήρια αναζήτησης. Παρακαλούμε προσπαθήστε με διαφορετικούς όρους αναζήτησης."
+
+#: content-none.php:19
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "Έτοιμος να δημοσιεύσετε το πρώτο σας άρθρο; <a href=\"%1$s\">Ξεκινήστε εδώ</a>."
+
+#: content-none.php:13
+msgid "Nothing Found"
+msgstr "Δεν βρέθηκε"
+
+#. translators: %s: Name of current post
+#: content-archive.php:22 content.php:22
+msgid "Continue reading %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Συνέχεια ανάγνωσης %s <span class=\"meta-nav\">&rarr;</span>"
+
+#: comments.php:72
+msgid "Comments are closed."
+msgstr "Τα σχόλια είναι απενεργοποιημένα."
+
+#: comments.php:39 comments.php:60
+msgid "Newer Comments"
+msgstr "Νεότερα σχόλια"
+
+#: comments.php:38 comments.php:59
+msgid "Older Comments"
+msgstr "Παλαιότερα σχόλια"
+
+#: comments.php:35 comments.php:56
+msgid "Comment navigation"
+msgstr "Πλοήγηση σχολίων"
+
+#: comments.php:28
+msgctxt "comments title"
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "Μια σκέψη σχετικά μέ το &ldquo;%2$s&rdquo;"
+msgstr[1] "%1$s σκέψεις σχετικά με το &ldquo;%2$s&rdquo;"
+
+#: 404.php:19
+msgid "It looks like nothing was found at this location. Maybe try one of the links below or a search?"
+msgstr "Δεν βρέθηκε κάτι σε αυτή την τοποθεσία. Δοκίμασε έναν από τους παρακάτω συνδέσμους ή μια αναζήτηση."
+
+#: 404.php:15
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "Ωχ! Αυτή η σελίδα δεν βρέθηκε."
+
+#. Author of the plugin/theme
+msgid "Hugo Baeta"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://thefivethemes.com"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "http://thefivethemes.com/themes/magnus"
+msgstr ""

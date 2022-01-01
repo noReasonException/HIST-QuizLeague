@@ -1,0 +1,104 @@
+body{
+	background-image: url('../img/bg2.jpg');
+	background-size:cover;
+	background-repeat: repeat-y;
+	background-attachment: fixed;
+
+}
+@font-face{
+	font-family: PresentationFont;
+	src:url('../fonts/LeagueGothic-Regular.otf');
+}
+#PresentationBackgroundLayer{
+	color:#ffffff;
+	background-color:#222930;
+	opacity:0.9;
+	padding: 7% 7% 7% 7%;
+	border-radius: 25px;
+	z-index: 0;
+	
+}
+#PresentationTextLayer{
+	font-family:PresentationFont;
+	margin-left: 2%;
+	opacity:1
+	color:#000000;
+	font-size: 40px;
+	z-index: 1;
+}
+#PresentationMotto{
+	font-size: 16px;
+	margin-left:4%;
+}
+#MenuBackgroundLayer{
+
+	margin-top:2%;
+	background-color: #222930;*/
+	margin-top: 10px;
+	opacity: 0.9;
+	text-decoration: none;
+	border-radius: 15px;
+	padding: 5px 5px 5px 5px;
+}
+/*#MenuElementsLayer{*/
+#MenuElementLayer li{
+	font-family: 'GFS Didot', serif;
+	opacity:0.7;
+	background-color: #000000;
+	color:#ffffff;
+	text-decoration: none;
+	list-style: none;
+	display:inline-block;
+	padding:0.5% 3% 0.5% 0.5%;
+	margin-left: 3%;
+	box-shadow: 10px 10px 15px #000000;
+	border-radius: 15px;
+
+
+}
+a{
+	color:#ffffff;
+	text-decoration: none;
+}
+#MainText{
+	text-align: center;
+	overflow-y: hidden;
+	overflow-x: scroll;
+	white-space: normal;
+
+	width:300px;
+	font-family: 'GFS Didot',serif;
+	font-size: 20px;
+	background-color: #222930;
+	border-radius:5px;
+}
+/*SIGN IN FORM CSS*/
+
+#Label{
+	font-family: 'GFS Didot' , serif;
+	margin-left:17%;
+	padding-top: 2%;
+	margin-top: 2%;
+
+}
+#SubmitButton{
+	background-color:#ffffff;
+	color:#000000;
+	font-family: 'GFS Didot',serif;
+	border-radius: 25px;
+	margin-top:4%;
+	margin-bottom: 4%;
+	margin-left: 70%;
+	height:30px;
+	width:100px;
+	border-style: none;
+
+}
+#footer{
+	color:#ffffff;
+	background-color: #222930;
+	margin-top:2%;
+	padding:1% 1% 1% 1%;
+	border-radius: 15px;
+	float:right;
+}

@@ -1,0 +1,66 @@
+
+#UserLogs{
+	opacity:0.9;
+	font-family: 'GFS Didot',serif;
+	display:inline-block;
+	background-color: #222930;
+	border-radius: 0px 25px 0px 25px;
+	padding-left: 0.5%;
+	float:left;
+	padding-bottom:1%;
+	padding-right:1%;
+	color:#ffffff;
+
+
+}
+
+#UserLogs img{
+	width:7%;height:7%;
+	margin-left:5%;
+
+}
+#UserLogs button{
+	margin-left: 50%;
+	border-radius: 8px;
+
+}
+
+#MainMenu{
+	color:#ffffff;
+	opacity:0.9;
+	background-color: #222930;
+	border-radius:5px;
+	font-family: 'GFS Didot', serif;
+	margin-left: 2.5%;
+	margin-right:12%;
+	margin-top: 12%;
+	padding:4% 4% 4% 4%;
+}
+
+
+#MenuListElement{
+	background-color: #222930;
+	border-radius: 15px;
+	margin-left: 5%;
+}
+#MenuLabel{
+	padding-left: 2%;
+}
+#IsOnlineTableStyle{
+	color:#ffffff;
+	opacity:0.9;
+	background-color: #222930;
+	border-radius: 15px;
+	float:right;
+	font-size: 10px;
+
+}
+#MainMessage{
+	background-color:#222930;
+	opacity:0.9;
+	font-size: 30px;
+	text-align: center;
+	color:#ffffff;
+	border-radius: 25px;
+	margin-top:2%;
+}

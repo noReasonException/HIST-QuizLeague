@@ -1,0 +1,21 @@
+#ArticleBackgroundLayer{
+  color:#ffffff;
+  opacity:0.9;
+  font-family:'GFS Didot',serif;
+  background-color: #222930;
+  border-radius:15px;
+  margin-top:2%;
+  padding-bottom: 2%;
+}
+#ArticleTitleLayer{
+  color:#ffffff;
+  margin-left: 2%;
+  font-size:35px;
+}
+#ArticleMainBodyLayer{
+  padding:1% 1% 1% 1%;
+}
+#ArticleReadMoreLayer{
+  margin-left:75%;
+  display:inline-block;
+}

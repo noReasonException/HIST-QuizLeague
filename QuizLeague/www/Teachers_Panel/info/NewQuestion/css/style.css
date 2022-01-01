@@ -1,0 +1,70 @@
+.MainMenu .QuestionGetInfo{
+    margin-top: 30%;
+    background-color: white;
+    padding: 2% 2% 2% 2%;
+    border-radius: 5px;
+}
+.MainMenu .QuestionGetInfo .MultipleChoice {
+    margin-top: 3%;
+    margin-left: 25%;
+
+}
+.MainMenu .QuestionGetInfo .ConfirmButton button{
+    margin-left:50%;
+}
+.MainMenu .QuestionGetText textarea{
+    margin-top:5%;
+    margin-left:10%;
+}
+.MainMenu .QuestionGetText .confirmbutton{
+    margin-left: 70%;
+    margin-top: 5%;
+}
+.MainMenu .QuestionGetText li{
+    display: inline-block;
+    margin-left:15%;
+}
+.MainMenu .StartMessage{
+    background-color: white;
+    padding: 1% 1% 1% 1%;
+    border-radius: 5px;
+    margin-top: 30%;
+}
+.MainMenu .QuestionGetInfo select{
+    margin-left:40%;
+    margin-bottom:2%;
+    margin-top:2%;
+}
+
+.MainMenu .ErrorButtons li{
+    margin-left:20%;
+    list-style: none;
+    margin-top:2%;
+    background-color:#7ca593;
+    padding:1% 1% 1% 1%;
+    margin-right: 40%;
+    border-radius: 5px;
+}
+
+.MainMenu .NextButton {
+    margin-left: 50%;
+    margin-right: 20%;
+    margin-top:2%;
+    background-color:#7ca593;
+    padding: 1% 1% 1% 1%;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+}
+.MainMenu .QuestionGetInfo  .AddCategory{
+    margin-left: 50%;
+    margin-right: 20%;
+    margin-top:2%;
+    background-color:#7ca593;
+    padding: 1% 1% 1% 1%;
+    border-radius: 5px;
+    text-align: center;
+}
+.MainMenu .QuestionGetInfo .AddCategory span{
+    cursor: pointer;
+}

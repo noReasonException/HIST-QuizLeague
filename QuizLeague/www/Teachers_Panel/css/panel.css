@@ -1,0 +1,141 @@
+
+a{
+	color:#000000;
+	text-decoration:none;
+}
+@keyframes HintAnimate {
+    0%{background-color:#ffffff;color:#000000}
+    25%{background-color:#7ca593;color: white}
+    75%{background-color:#7ca593;color: white}
+    100%{background-color:#ffffff;color:#000000}
+
+}
+.TopMenu{
+	background-color:#ffffff;
+	width:96%;
+
+	overflow: hidden;
+}
+.TopMenu li{
+	display:inline-block;
+	list-style: none;
+	margin-left: 5%;
+	padding:0.5% 0.5% 0.5% 0.5%;
+
+}
+.TopMenu li:hover{
+	background-color: #7ca593;
+	color:#ffffff;
+}
+.Context{
+
+	margin-top: 1%;
+	margin-bottom: 5%;
+}
+.Context  .LeftMenu{
+	height: 100%;
+	overflow:hidden;
+	background-color:#ffffff;
+	float:left;
+	padding-right:1%;
+}
+.Context .LeftMenu li{
+	list-style: none;
+	margin-top: 11%;
+	padding:2% 2% 2% 2%;
+
+}
+.Context  .LeftMenu li:hover{
+	background-color: #7ca593;
+	color:#ffffff;
+}
+.Context  .MainMenu{
+	height: 100%;
+	background-color:#ffffff;
+	padding :1% 1% 5% 1%;
+	margin-right: 5%;
+	margin-left: 30%;
+}
+.Context  .MainMenu .Header{
+	font-size: 30px;
+}
+.Context  .MainMenu .UserLogs{
+	font-size:18px;
+	float:right;
+}
+
+.Context  .MainMenu .NewsSection{
+	/* No need Anything Here yo!*/
+}
+.Context  .MainMenu .NewsSection hr{
+	margin-top:3%;
+}
+.Context  .MainMenu .NewsSection .NewsSectionLearnMoreButton{
+	float:right;
+}
+.Context  .MainMenu .NewsSection li{
+	margin-top:4%;
+}
+.MainMenu .UnderContruction{
+	margin-top:25%;
+	margin-left: 15%;
+
+}
+.MainMenu .UnderContruction img{
+	width: 30%;
+	height: auto;
+}
+.MainMenu .UnderContruction span{
+	margin-top:10%;
+	float:right;
+	margin-right:10%;
+}
+.MainMenu .NewsSection .NoNewsFound{
+	margin-top:20%;
+	margin-left: 15%;
+}
+.MainMenu .NewsSection .NoNewsFound img{
+	width: 30%;
+	height: auto;
+	margin-top: auto;
+}
+.MainMenu .NewsSection .NoNewsFound span{
+	float: right;
+	margin-top: 10%;
+	margin-right: 10%;
+}
+.MainMenu .SomethingGoneWrong {
+    width: inherit;
+    height: auto;
+    margin-top: 30%;
+    margin-left: 5%;
+    background-color: white;
+    padding: 1% 1% 1% 1%;
+    opacity: 0.9;
+
+}
+.MainMenu .SomethingGoneWrong img{
+    width: 25%;
+    height: auto;
+}
+.MainMenu .SomethingGoneWrong span{
+    float: right;
+    margin-right: 8%;
+}
+.HintAnimation{
+    animation-name: HintAnimate;
+    animation-duration: 2s;
+    animation-iteration-count:infinite;
+}
+.MainMenu .NoDataFound{
+	margin-top: 5%;
+}
+.MainMenu .NoDataFound img{
+	margin-left: 10%;
+	float:left;
+	width:20%;
+	height: auto;
+}
+.MainMenu .NoDataFound span{
+	margin-left: 5%;
+}

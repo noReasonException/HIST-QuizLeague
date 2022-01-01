@@ -1,0 +1,11 @@
+{
+  "SL":"Σωστό-Λάθος",
+  "MUL_CH":"Πολλαπλής Επιλογής",
+  "MATCH":"Αντιστοίχησης",
+  "INF_username":"Όνομα χρήστη: ",
+  "INF_email":"Email: ",
+  "INF_dateoffistlogin":"Ημερομηνία Εγγραφής: ",
+  "INF_firstname":"Όνομα: ",
+  "INF_lastname":"Επίθετο: ",
+  "INF_teacher_id":"ID Χρήστη: "
+}

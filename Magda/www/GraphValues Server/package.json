@@ -1,0 +1,8 @@
+{
+  "name": "GraphValuesServer",
+  "version": "0.0.1",
+  "decription": "No desc",
+  "dependencies": {
+    "express": "^4.10.2"
+  }
+}

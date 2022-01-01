@@ -1,0 +1,150 @@
+#MainMenu{
+	margin-bottom: 1%;
+	background-color: #0c1f34;
+	padding :1% 5% 1% 5%;
+	width:100%;
+
+	border-color: #0c1f34;
+	border-width: 1px;
+	border-radius: 5px 5px 5px 25px;
+}
+#FirstElement{
+	background-color: #10bcf4;
+	padding:1% 1% 1% 1%;
+	border-radius: 5px 5px 5px 15px;
+	margin-left:4%;
+}
+#MainMenu li{
+	display: inline-block;
+	list-style: none;
+	text-decoration:none;
+	margin-right: 3%;
+}
+#MainMenu a{
+	color:#fff;
+	text-decoration: none;
+}
+#PresentationPicture img{
+	height:65%;
+	width:100%;
+	overflow: hidden;
+	border-radius: 15px 5px 5px 5px;
+}
+.Index .Container{
+	opacity:0.9;
+	margin-top: 1%;
+	background-color: #0c1f34;
+	color:#fff;
+	padding:1% 1% 1% 1%;
+	border-radius: 5px;
+
+}
+.Index .MainTitle{
+	font-size: 35px;
+	margin-left:25%;
+}
+.Index .SubTitle{
+	font-size: 25px;
+	margin-left:60%;
+}
+.Index .MainText{
+	margin-top: 5%;
+	margin-left:5%;
+	padding-right:5%;
+	padding-bottom: 3%;
+}
+.Footer{
+	background-color: #0c1f34;
+	opacity: 0.9;
+	border-radius: 5px;
+	color:#fff;
+	padding:3% 5% 1% 1%;
+	margin-top:1%;
+
+
+
+}
+
+.Footer .SocialMediaSection li{
+
+	display:inline-block;
+	margin-left: 3%;
+
+}
+.Footer .SocialMediaSection .Facebook img{
+	width:60px;
+	height:60px;
+	margin-left:5%;
+	margin-top:2%;
+	margin-bottom:2%;
+}
+.Footer .SocialMediaSection .LinkedIn img{
+	display:inline-block;
+	width:60px;
+	height:60px;
+	margin-left:5%;
+	margin-top:2%;
+	margin-bottom:2%;
+
+}
+.Footer .SocialMediaSection .Gmail img{
+	display:inline-block;
+	width:60px;
+	height:60px;
+	margin-left:5%;
+	margin-top:2%;
+	margin-bottom:2%;
+
+}
+
+.Footer hr{
+	width:70%;
+}
+.Footer .MainText{
+	margin-top:2%;
+	position: absolute;
+}
+.Footer .QuickMenu {
+	margin-top: 2%;
+	margin-left: 40%;
+	overflow: all;
+	position: absolute;
+
+
+}
+.Footer .QuickMenu .Label{
+	font-size: 25px;
+}
+
+.Footer .QuickMenu ul{
+}
+.Footer .QuickMenu li{
+	margin-top: 10px;
+
+}
+.Footer .QuickMenu li a{
+	color:#fff;
+}
+.Footer .Communication{
+	margin-top: 2%;
+	margin-left: 72%;
+	float:left;
+}
+.Footer .Communication .Label{
+	font-size: 25px;
+}
+.Footer .Communication li{
+	color:#fff;
+	margin-top: 10px;
+}
+
+
+.Footer .CreditsAndCopyright{
+	text-align: center;
+	margin-top:20%;
+	padding-bottom: 1%;
+}
+
+
+
+
